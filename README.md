@@ -61,3 +61,14 @@ Default durations:
 Work: 25 minutes
 Short break: 5 minutes
 Long break: 15 minutes
+
+
+## Download (Windows)
+
+A packaged build is attached to each [GitHub Release](https://github.com/aya-haiti/pomodoro-project-manager/releases/latest)
+(`.github/workflows/release.yml`, triggered by `v*` tags).
+
+1. Install MySQL (e.g. XAMPP) and import `pomodoro_app.sql`.
+2. Extract `PomodoroManager-windows.zip` and run `PomodoroManager.exe` from that folder.
+3. Database settings default to `root@localhost` without password; override with
+   `POMODORO_DB_HOST`, `POMODORO_DB_USER`, `POMODORO_DB_PASSWORD`, `POMODORO_DB_NAME`, `POMODORO_DB_PORT`.
